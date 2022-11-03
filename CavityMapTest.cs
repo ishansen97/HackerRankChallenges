@@ -37,7 +37,7 @@ namespace HackerRankChallenges
 				}
 			}
 
-			Console.WriteLine(grid.EnumerableToString());
+            Console.WriteLine(grid.EnumerableToString());
 			Console.WriteLine(items);
 
             return default;

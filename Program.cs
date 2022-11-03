@@ -72,7 +72,12 @@ namespace HackerRankChallenges
             //StrangeCounterTest();
 
             //PowerSumTest();
-            ////SherlockArraysTest();
+            //SherlockArraysTest();
+            //SherlockSquaresTest();
+        }
+
+        private static void SherlockSquaresTest()
+        {
             //Console.WriteLine($"Count: {SherlockSquares.Squares(25, 49)}");
             //Console.WriteLine($"Count: {SherlockSquares.Squares(228, 919)}");
             //Console.WriteLine($"Count: {SherlockSquares.Squares(11, 734)}");
@@ -453,7 +458,7 @@ namespace HackerRankChallenges
 
             List<int> widths = new List<int>() { 2, 3, 1, 2, 3, 2, 3, 3 };
 
-            Console.WriteLine("list: {0}", Highway.ServiceLane(8, cases, widths).EnumerableToString());
+            Console.WriteLine("list: {0}", ExtensionsMethods.EnumerableToString(Highway.ServiceLane(8, cases, widths)));
         }
 
         private static void HalloweenTest()

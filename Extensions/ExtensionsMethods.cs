@@ -10,15 +10,7 @@ namespace HackerRankChallenges.Extensions
     {
         public static string EnumerableToString<T>(this IEnumerable<T> e)
 		{
-            StringBuilder builder = new StringBuilder();
-
-			foreach (var item in e)
-			{
-				builder.Append(string.Concat(item, ","));
-			}
-
-			builder.Remove(builder.Length - 1, 1);
-			return builder.ToString();
+            return string.Join(",", e);
 		}
     }
 }
